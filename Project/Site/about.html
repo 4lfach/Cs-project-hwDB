@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "styleMainPage.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c623aa70b9.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="MainPage.html">
+                <img src="icons\alpha.png">
+            </a>
+            <div class="nav-links"id = "navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="MainPage.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="authorization">
+                <a href="http://localhost/Project/Authorization/login.php">Log In</a>
+                <a href="http://localhost/Project/Authorization/register.php">Sign Up</a>
+            </div>
+
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About us</h1>
+
+    </section>
+
+    <!--About us content-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicin</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, illo placeat quae blanditiis, quis atque repellendus beatae dolores expedita minima modi explicabo? Necessitatibus doloremque temporibus pariatur. Error necessitatibus soluta voluptates?<br></p>
+    
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="images/schoolBackground.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, veritatis omnis unde,
+             expedita eveniet sapiente fugit ipsum error repudiandae quia deserunt saepe aspernatur
+              distinctio pariatur vitae cupiditate aut, id enim?</p>
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+
+        <p>Made with <i class="fa-solid fa-heart"></i> by Alf4ch</p>
+    </section>
+
+    <!--JS for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

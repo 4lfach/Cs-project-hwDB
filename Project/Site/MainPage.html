@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "styleMainPage.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c623aa70b9.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="MainPage.html">
+                <img src="icons\alpha.png">
+            </a>
+            <div class="nav-links"id = "navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="MainPage.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="authorization">
+                <a href="http://localhost/Project/Authorization/login.php">Log In</a>
+                <a href="http://localhost/Project/Authorization/register.php">Sign Up</a>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Alfach Homework DB</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br> quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <a href="" class="hero-btn">Click To Learn More</a>
+        </div>
+    </section>
+    
+<!--
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eligendi nesciunt provident quasi odit. Quam, nemo!
+                   Esse, obcaecati! Magnam laboriosam enim a, at incidunt vel nisi ducimus doloribus laborum qui.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eligendi nesciunt provident quasi odit. Quam, nemo!
+                   Esse, obcaecati! Magnam laboriosam enim a, at incidunt vel nisi ducimus doloribus laborum qui.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eligendi nesciunt provident quasi odit. Quam, nemo!
+                   Esse, obcaecati! Magnam laboriosam enim a, at incidunt vel nisi ducimus doloribus laborum qui.</p>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!--Subjects-->
+    <section class="subjects">
+        <h1>Homework For The Subjects</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat asperiores accusamus beatae numquam, eaque explicabo amet vero ea nostrum maiores</p>
+
+        <div class="row">
+            <div class="subject-col">
+                <img src="images/Biology.png">
+                <div class="layer">
+                    <h3>Biology</h3>
+                </div>
+            </div>
+            <div class="subject-col">
+                <img src="images/ComputerScience.png">
+                <div class="layer">
+                    <h3>Computer Science</h3>
+                </div>
+            </div>
+            <div class="subject-col">
+                <img src="images/Chemistry.png">
+                <div class="layer">
+                    <h3>Chemistry</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="subject-col">
+                <img src="images/Literature.png">
+                <div class="layer">
+                    <h3>Kazakh Literature</h3>
+                </div>
+            </div>
+            <div class="subject-col">
+                <img src="images/History.png">
+                <div class="layer">
+                    <h3>Kazakh History</h3>
+                </div>
+            </div>
+            <div class="subject-col">
+                <img src="images/English.png">
+                <div class="layer">
+                    <h3>English</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="table-container">
+        <p>The number of downloads per subject.</p>
+        <div class="row">
+            <table>
+                <th>Subject</th>
+                <th>Number of downloads</th>
+                <tr>
+                    <td>Math</td>
+                    <td>1546</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>1546</td>
+                </tr>
+                <tr>
+                    <td>Computer Science</td>
+                    <td>1546</td>
+                </tr>
+                <tr>
+                    <td>Kazakh Language</td>
+                    <td>1546</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+    <!--Facilities-->
+<!--
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/Literature.png">
+
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eligendi nesciunt provident quasi odit. Quam, nemo!
+                    Esse, obcaecati! Magnam laboriosam enim a, at incidunt vel nisi ducimus doloribus laborum qui.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/History.png">
+
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eligendi nesciunt provident quasi odit. Quam, nemo!
+                    Esse, obcaecati! Magnam laboriosam enim a, at incidunt vel nisi ducimus doloribus laborum qui.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/English.png">
+
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eligendi nesciunt provident quasi odit. Quam, nemo!
+                    Esse, obcaecati! Magnam laboriosam enim a, at incidunt vel nisi ducimus doloribus laborum qui.</p>
+            </div>
+        </div>
+    </section>
+-->
+
+    <section class="testimonial">
+        <h1>What our students say</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eligendi nesciunt provident quasi odit. Quam, nemo!
+            Esse, obcaecati! Magnam laboriosam enim a, at incidunt vel nisi ducimus doloribus laborum qui.</p>
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"
+             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>   
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/studyingGuy.jpg">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eligendi nesciunt provident quasi odit. Quam, nemo!</p>
+                <h3>Lorem Ipsum</h3>
+
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/studyingGuy.jpg">
+                
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eligendi nesciunt provident quasi odit. Quam, nemo!</p>
+                <h3>Lorem Ipsum</h3>
+
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+    
+    </section>
+
+    <!--Call To Action-->
+    <section class="cta">
+        <h1>Enroll For Our Online Courses<br>Anywhere From The World</h1>
+        <a href="contact.php" class="hero-btn">Contact Us</a>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, veritatis omnis unde,
+             expedita eveniet sapiente fugit ipsum error repudiandae quia deserunt saepe aspernatur
+              distinctio pariatur vitae cupiditate aut, id enim?</p>
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+
+        <p>Made with <i class="fa-solid fa-heart"></i> by Alf4ch</p>
+    </section>
+
+    <!--JS for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

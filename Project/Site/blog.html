@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "styleMainPage.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c623aa70b9.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="MainPage.html">
+                <img src="icons\alpha.png">
+            </a>
+            <div class="nav-links"id = "navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="MainPage.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Bla bla bla bla bla</h1>
+    </section>
+    
+<!--BLog content-->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images\studyingGuy.jpg">
+                <h2>Our certificate & Online Programs for 2022</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet sit facilis omnis maiores sapiente architecto libero qui minima, corrupti consectetur numquam.<br></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt beatae error possimus, non totam itaque accusantium nisi dolorem harum ut ab optio, consectetur veritatis ea aliquam vitae quod libero modi.<br></p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur optio porro dolore impedit dolor, tempora non rerum quo culpa nulla soluta necessitatibus maxime exercitationem repellat numquam libero harum a mollitia?<br></p>
+            
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Email">
+                        <input type="text" placeholder="Enter Name">
+                        <textarea name="" id="" rows="5" placeholder="Your comment..."></textarea>
+
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>24</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, veritatis omnis unde,
+             expedita eveniet sapiente fugit ipsum error repudiandae quia deserunt saepe aspernatur
+              distinctio pariatur vitae cupiditate aut, id enim?</p>
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+
+        <p>Made with <i class="fa-solid fa-heart"></i> by Alf4ch</p>
+    </section>
+
+    <!--JS for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
